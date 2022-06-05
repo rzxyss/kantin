@@ -48,7 +48,6 @@
 
     <section class="konten">
         <div class="container">
-            <h2>Detail Pembelian</h2>
             <?php
                 $sql = "SELECT * FROM pembelian JOIN siswa ON pembelian.id_siswa=siswa.id_siswa WHERE pembelian.id_pembelian='$_GET[id]'";
                 $query = mysqli_query($conn,$sql);
