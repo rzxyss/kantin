@@ -14,7 +14,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>E-Kantin</title>
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" type="text/css" href="admin/assets/css/home.css">
     <link rel="stylesheet" type="text/css" href="admin/assets/css/navbar.css">

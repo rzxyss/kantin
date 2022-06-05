@@ -26,7 +26,7 @@
     <link href="admin/assets/css/custom.css" rel="stylesheet" />
     <!-- GOOGLE FONTS-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
-    <title>Document</title>
+    <title>E-Kantin</title>
 </head>
 <body>
     <h1>Keranjang</h1>
