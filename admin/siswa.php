@@ -14,9 +14,9 @@
     </thead>
     <tbody>
             <?php
+                $nomor = 1;
                 $query = mysqli_query($conn, "SELECT * FROM siswa");
                 while ($siswa = mysqli_fetch_assoc($query)) {
-                    $nomor = 1;
             ?>
         <tr>
             <td><?= $nomor ?></td>

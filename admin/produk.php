@@ -13,14 +13,14 @@
     </thead>
     <tbody>
             <?php
+                $nomor = 1;
                 $query = mysqli_query($conn, "SELECT * FROM produk");
                 while ($produk = mysqli_fetch_assoc($query)) {
-                    $nomor = 1;
             ?>
         <tr>
             <td><?= $nomor ?></td>
             <td><?= $produk['nama_produk'] ?></td>
-            <td><?= $produk['harga_produk'] ?></td>
+            <td>Rp. <?= number_format($produk['harga_produk']) ?></td>
             <td><?= $produk['deskripsi_produk'] ?></td>
             <td><img src="../produk/<?= $produk['foto_produk'] ?>" width="200"></td>
             <td>

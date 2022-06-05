@@ -94,6 +94,9 @@ font-size: 16px;"><a href="#" class="btn btn-danger square-btn-adjust">Logout</a
                         else if ($_GET['pages']=="HapusProduk") {
                             include 'hapusProduk.php';
                         }
+                        else if ($_GET['pages']=="DetailPembelian") {
+                            include 'detailPembelian.php';
+                        }
                     }
                     else {
                         include 'home.php';
