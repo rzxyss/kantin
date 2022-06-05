@@ -1,5 +1,12 @@
 ﻿<?php
-    include 'config.php'
+    session_start();
+    include 'config.php';
+
+    if(!isset($_SESSION['admin'])){
+        echo '<script>alert("Anda Harus Login");</script>';
+        echo '<script>location="login.php";</script>';
+        exit();
+    }
 ?>
 
 <!DOCTYPE html>
@@ -36,7 +43,7 @@
             <div style="color: white;
 padding: 15px 50px 5px 50px;
 float: right;
-font-size: 16px;"><a href="#" class="btn btn-danger square-btn-adjust">Logout</a> </div>
+font-size: 16px;"><a href="logout.php" class="btn btn-danger square-btn-adjust">Logout</a> </div>
         </nav>
         <!-- /. NAV TOP  -->
         <nav class="navbar-default navbar-side" role="navigation">
