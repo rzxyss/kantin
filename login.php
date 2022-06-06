@@ -69,6 +69,7 @@ include 'admin/config.php';
                     </div>
                 </div>
             </form>
+            Login Sebagai Admin?<a href="admin/login.php"> Klik Disni</a>
         </div>
     </div>
 

@@ -47,6 +47,7 @@
                                             <input type="password" class="form-control" name="password" placeholder="Your Password" />
                                         </div>
                                         <button type="submit" name="login" class="btn btn-primary">Login</button>
+                                        <a href="../login.php" class="btn btn-default">Login Sebagai Siswa</a>
                                     </form>
                                     <?php
                                         if(isset($_POST['login'])){
